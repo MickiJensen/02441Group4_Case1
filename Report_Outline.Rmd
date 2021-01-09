@@ -1,0 +1,64 @@
+---
+title: "**Detergent Case: Effect of hardness and detergent on enzymatic catalysis**"
+
+subtitle: 'Applied Statistics and Statistical Software (02441).'
+
+  author:
+- Anna E. Jorgensen (s203016)
+- Micki S. Jensen (s202758)
+- Erik L. Christensen
+date: "`r format(Sys.time(), '%d %B %Y')`"
+
+abstract: |
+  This is where the summary will go
+  
+    It consists of one-two ~250 words paragraphs.
+    Do this at the end
+    
+output:
+  pdf_document: 
+    toc: true
+    toc_depth: 2  # upto two depths of headings (specified by #, ## and ###)
+
+  html_document: 
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+
+# Methods
+
+## Our Data
+
+## Statistical Analysis
+
+# Results
+
+# Conclusion
+
+# Appendix
+
+## Figures
+
+## Tables
+
+## Program Code (optional (if we have enough spaces)
+
+Ignore this 
+```{r cars}
+summary(cars)
+```
+
+
+Including Plots
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
